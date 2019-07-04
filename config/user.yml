@@ -5,3 +5,12 @@ spring:
     name: user
   profiles:
     active: dev
+  datasource:
+    druid:
+      url: jdbc:mysql://120.79.216.102:3306/lst?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: sdzn
+      password: sdzn123456
+      driver-class-name: com.mysql.jdbc.Driver
+      stat-view-servlet:
+        login-username: admin
+        login-password: admin
